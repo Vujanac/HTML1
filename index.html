@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ie=edge">
+    <meta name="keywords" content="Free Web tutorials">
+    <meta name="author" content="Filip Vujanac">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .background {
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+    <title>CodeStackr</title>
+</head>
+<body>
+    <!-- Headings -->
+   <h1> Hello world</h1>
+   <h2> Hello world</h2>
+   <h3> Hello world</h3>
+   <h4> Hello world</h4>
+   <h5> Hello world</h5>
+   <h6> Hello world</h6>
+
+   <hr>
+
+
+   <p>This is paragraph<br>
+
+    This is another sentence.
+   </p>
+
+   <hr>
+
+   <div>
+   <p title="This is a tooltip">Lorem ipsum dolor sit <b>amet</b> consectetur <i>adipisicing</i> elit. Quasi dolor unde voluptatum qui, quis voluptatibus eligendi est beatae ex corporis ullam, obcaecati veritatis, blanditiis officia harum commodi mollitia repellendus delectus.</p>   
+   <p>Lorem ipsum dolor sit amet <mark>consectetur</mark> adipisicing elit. <span style="color: red;">Quasi dolor unde voluptatum qui</span>, quis <small>voluptatibus</small> eligendi est beatae ex corporis ullam, <del>obcaecati</del> veritatis, blanditiis officia harum commodi mollitia repellendus delectus.</p>   
+   <p class="background">Lorem ipsum dolor sit amet <ins>consectetur</ins> adipisicing elit. Quasi dolor unde <sub>voluptatum</sub> qui, quis <sup>voluptatibus</sup> eligendi est beatae ex corporis ullam, obcaecati veritatis, blanditiis officia harum commodi mollitia repellendus delectus.</p>   
+</div>
+<a href="#bookmark">
+<img src="Batonga.png" alt="alternate description here" width="400">
+</a>
+
+<br>
+
+<p id="bookmark">this is a paragraph</p>
+
+<ol type="1" start="25">
+    <li>List item 1</li>
+        <ul>
+            <li>Sub bullet 1</li>
+            <li>Sub bullet 2</li>
+        </ul>
+    <li>List item 2</li>
+    <li>List item 3</li>
+    <li>List item 4</li>
+    <li>List item 5</li>
+</ol>
+
+<table>
+    <caption> This is a caption</caption></caption>
+    <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Petar</td>
+            <td>Pesic</td>
+            <td>1832</td>
+        </tr>
+        <tr>
+            <td>Miroslav</td>
+            <td>Milovanovic</td>
+            <td>999999</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Petar Pesic</td>
+            <td>555-555-5555</td>
+            <td>777-777-7777</td>
+        </tr>
+    </tbody>
+
+</table>
+
+<table>
+    <tr>
+        <th>Name:</th>
+        <td>Miroslav Milovanovic</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Telephone:</th>
+        <td>555-555-5555</td>
+    </tr>
+    <tr>
+        <td>777-777-7777</td>
+    </tr>
+</table>
+<br>
+<hr>
+<br>
+<form action="server.php">
+    <fieldset>
+        <legend>Personal Information:</legend>
+        First Name:<br>
+        <input type="text" name="firstname" value="" placeholder="First Name Here"><br>
+        Last name<br>
+        <input type="text" name="lastname" value=""><br>
+        <input type="radio" name="Options"> Option 1
+        <input type="radio" name="Options"> Option 2 <br>
+        <input type="checkbox" name="checkbox" checked> Checkbox 1
+        <input type="checkbox" name="checkbox"> Checkbox 2
+        <input type="checkbox" name="checkbox"> Checkbox 3 <br>
+<br><br>
+<label for="carSelect">Select :</label>
+        <select name="cars" id="carSelect" multiple>
+            <option value="BMW" selected>BMW</option>
+            <option value="Volvo">Volvo</option>
+            <option value="Audi">Audi</option>
+
+        </select>
+
+        <br><br>
+        <input type="submit" value="submit">
+    </fieldset>
+</form>
+<br> <br>
+
+<button>Click me</button>
+
+</body>
+</html>
